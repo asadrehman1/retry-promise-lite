@@ -1,0 +1,36 @@
+{
+  "name": "retry-promise-lite",
+  "version": "1.0.0",
+  "description": "A tiny utility to retry async functions with configurable attempts and delay",
+  "main": "index.cjs",
+  "module": "index.js",
+  "type": "module",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.cjs"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asadrehman1/retry-promise-lite.git"
+  },
+  "keywords": [
+    "retry",
+    "promise",
+    "async",
+    "retry-promise",
+    "retry-logic"
+  ],
+  "author": "Asad Rehman <asadrehman2321@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asadrehman1/retry-promise-lite/issues"
+  },
+  "homepage": "https://github.com/asadrehman1/retry-promise-lite#readme",
+  "files": [
+    "index.js",
+    "index.cjs"
+  ]
+}
